@@ -21,8 +21,8 @@ class CharacterEnvironment extends Environment {
     public Wallace gromitSmall;
 
     public CharacterEnvironment() {
-        gromitBig = new Wallace(200, 220, 600, 80);
-        gromitSmall = new Wallace(120, 150, 300, 40);
+        gromitBig = new Wallace(50, 50, 150, 450);
+        gromitSmall = new Wallace(250, 50, 75, 300);
     }
 
     @Override
@@ -59,27 +59,27 @@ class CharacterEnvironment extends Environment {
             gromitSmall.draw(graphics);
 
         }
-        graphics.setColor(Color.pink);
-        graphics.fillOval(90, 115, 100, 45);
-        graphics.setColor(Color.pink);
-        graphics.fillOval(117, 60, 45, 100);
-        graphics.setColor(Color.black);
-        graphics.drawOval(117, 90, 20, 20);
-        graphics.setColor(Color.white);
-        graphics.fillOval(117, 90, 19, 19);
-        graphics.setColor(Color.black);
-        graphics.fillOval(122, 95, 10, 10);
-        graphics.setColor(Color.black);
-        graphics.drawOval(142, 90, 20, 20);
-        graphics.setColor(Color.white);
-        graphics.fillOval(142, 90, 19, 19);
-        graphics.setColor(Color.black);
-        graphics.fillOval(147, 95, 10, 10);
-        graphics.setColor(Color.white);
-        graphics.fillRect(105, 127, 70, 20);
-        graphics.setColor(Color.black);
-        graphics.drawOval(132, 105, 15, 15);
-        graphics.drawLine(WIDTH, WIDTH, WIDTH, WIDTH);
+//        graphics.setColor(Color.pink);
+//        graphics.fillOval(90, 115, 100, 45);
+//        graphics.setColor(Color.pink);
+//        graphics.fillOval(117, 60, 45, 100);
+//        graphics.setColor(Color.black);
+//        graphics.drawOval(117, 90, 20, 20);
+//        graphics.setColor(Color.white);
+//        graphics.fillOval(117, 90, 19, 19);
+//        graphics.setColor(Color.black);
+//        graphics.fillOval(122, 95, 10, 10);
+//        graphics.setColor(Color.black);
+//        graphics.drawOval(142, 90, 20, 20);
+//        graphics.setColor(Color.white);
+//        graphics.fillOval(142, 90, 19, 19);
+//        graphics.setColor(Color.black);
+//        graphics.fillOval(147, 95, 10, 10);
+//        graphics.setColor(Color.white);
+//        graphics.fillRect(105, 127, 70, 20);
+//        graphics.setColor(Color.black);
+//        graphics.drawOval(132, 105, 15, 15);
+//        graphics.drawLine(WIDTH, WIDTH, WIDTH, WIDTH);
         
     }
 
