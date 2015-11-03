@@ -49,10 +49,19 @@ public class Wallace {
         
         //mouth
         graphics.setColor(Color.white);
-        graphics.fillOval(x + (width * 22 / 100), y + (height * 10 / 100), width * 14 / 100, width * 14 / 100);
+        graphics.fillOval(x + (width * 25 / 100), y + (height * 18 / 100), width * 50 / 100, width * 14 / 100);
 //        graphics.fillOval(105, 127, 70, 25);
         graphics.setColor(Color.pink);
-        graphics.fillOval(105, 120, 65, 20);
+        graphics.fillOval(x + (width * 27 / 100), y + (height * 16 / 100), width * 45 / 100, width * 14 / 100);
+//        graphics.fillOval(105, 120, 65, 20);
+        
+        //ear
+        graphics.setColor(Color.pink);
+        graphics.fillOval(x + (width * 64 / 100), y + (height * 11 / 100), width * 12 / 100, width * 12 / 100);
+        //ear
+        graphics.setColor(Color.pink);
+        graphics.fillOval(x + (width * 23 / 100), y + (height * 11 / 100), width * 12 / 100, width * 12 / 100);
+        
         
         
     }
