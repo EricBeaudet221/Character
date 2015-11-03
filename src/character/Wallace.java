@@ -46,16 +46,11 @@ public class Wallace {
         //pupil
         graphics.setColor(Color.black);
         graphics.fillOval(x + (width * 54 / 100), y + (height * 11 / 100), width * 7 / 100, width * 7 / 100);
-//        graphics.setColor(Color.black);
-//        graphics.drawOval(142, 90, 20, 20);
-//        graphics.setColor(Color.white);
-//        graphics.fillOval(142, 90, 19, 19);
-//        graphics.setColor(Color.black);
-//        graphics.fillOval(147, 95, 10, 10);
         
         //mouth
         graphics.setColor(Color.white);
-        graphics.fillOval(105, 127, 70, 25);
+        graphics.fillOval(x + (width * 22 / 100), y + (height * 10 / 100), width * 14 / 100, width * 14 / 100);
+//        graphics.fillOval(105, 127, 70, 25);
         graphics.setColor(Color.pink);
         graphics.fillOval(105, 120, 65, 20);
         
