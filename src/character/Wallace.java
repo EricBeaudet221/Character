@@ -63,6 +63,9 @@ public class Wallace {
         graphics.fillOval(x + (width * 23 / 100), y + (height * 11 / 100), width * 12 / 100, width * 12 / 100);
         
         
+        //nose
+        
+        
         
     }
 
